@@ -91,7 +91,7 @@ article {
   padding: 1rem;
   border-radius: 1rem;
   align-items: center;
-  background-color: #bbaf9c;
+  background-color: #b9aa95;
   box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -107,12 +107,69 @@ main section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin: 2rem;
+  justify-content: center;
+  background-color: #d3bda9;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+main section ul li {
+  display: inline-block;
+  background-color: #dbc5aa;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-family: "Quicksand", sans-serif;
+  margin: 1vw;
+}
+
+main section ul {
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 1rem;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 1rem;
+  color: white;
+}
+
+.printing {width: 75%; background-color: #63be7e;}
+.modeling {width: 60%; background-color: #63be7e;}
+.programing {width: 40%; background-color: #63be7e;}
+.web {width: 60%; background-color: #63be7e;}
+.design {width: 80%; background-color: #63be7e;}
+.creativity {width: 90%; background-color: #63be7e;}
+
+.portfolio-title {
+  font-size: 3.5rem;
+  font-family: "Overpass", sans-serif;
+  width: 100%;
+}
+
+#portfolio article p {
+  font-size: 1.2rem;
+}
+
+#portfolio article ul li { 
+  font-size: 1.4rem;
 }
 
 main section article {
   flex-grow: 1;
   flex-basis: 150px;
   margin: 1.5rem;
+}
+
+main section article ul li {
+  width: 15rem;
 }
 
 main section article a {
@@ -224,6 +281,7 @@ a.button:active {
   font-size: 1.8rem;
   transition: all 300ms;
 }
+
 
 @media only screen and (min-width: 900px) {
   #main-menu {
