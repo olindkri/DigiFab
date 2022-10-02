@@ -130,6 +130,7 @@ main section ul li {
   font-family: "Quicksand", sans-serif;
   font-size: 1.2rem;
   margin: 1vw;
+  min-width: 150px;
 }
 
 main section ul {
@@ -381,6 +382,12 @@ a.button:active {
     margin-bottom: 1.5rem;
   }
 
+  main section ul li {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 1vw;
+  }
+
   header nav ul li a {
     font-size: 1.3rem;
   }
@@ -410,6 +417,12 @@ a.button:active {
     transition: all 300ms;
   }
 
+  #portfolio article p {
+    font-size: 1rem;
+    letter-spacing: 0rem;
+    line-height: 1.2;
+  }
+
   h1 {
     font-size: 2.4rem;
   }
@@ -420,7 +433,7 @@ a.button:active {
   }
 
   h3 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: "Quicksand", sans-serif;
   }
 
@@ -483,8 +496,6 @@ a.button:active {
 }
 
 @media only screen and (max-width: 350px) {
-  
-
   .portfolio-title {
     font-size: 2rem;
     margin: 0.5rem;
@@ -510,7 +521,7 @@ a.button:active {
   }
 
   h3 {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-family: "Quicksand", sans-serif;
   }
 
