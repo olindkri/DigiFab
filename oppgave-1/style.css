@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 
 body {
-  background-color: #dcc9b6;
+  background-color: #ffffff;
   height: 100%;
 }
 
@@ -84,14 +84,15 @@ header nav ul li a i:hover {
 
 header {
   grid-area: header;
-  background-color: #788877;
+  background-color: rgb(221, 145, 51);
+  box-shadow: 0px 21px 14px -6px rgba(0,0,0,0.1);
 }
 
 article {
   padding: 1rem;
   border-radius: 1rem;
   align-items: center;
-  background-color: #b4a38b;
+  background-color: #f1f1f1;
   box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -109,7 +110,7 @@ main section {
   align-items: center;
   margin: 1rem;
   justify-content: center;
-  background-color: #d3bda9;
+  background-color: #e2e2e2;
   border-radius: 1rem;
   padding: 1rem;
 }
@@ -118,13 +119,13 @@ main section img {
   width: 15rem;
   height: auto;
   border-radius: 50%;
-  border: 5px solid #788877;
+  border: 5px solid #dd9133;
   margin: 1rem;
 }
 
 main section ul li {
   display: inline-block;
-  background-color: #dbc5aa;
+  background-color: #cbc5be;
   padding: 1rem;
   border-radius: 1rem;
   font-family: "Quicksand", sans-serif;
@@ -155,27 +156,27 @@ main section ul {
 
 .printing {
   width: 85%;
-  background-color: #63be7e;
+  background-color: #d47b00;
 }
 .modeling {
   width: 60%;
-  background-color: #63be7e;
+  background-color: #d47b00;
 }
 .programing {
   width: 50%;
-  background-color: #63be7e;
+  background-color: #d47b00;
 }
 .web {
   width: 60%;
-  background-color: #63be7e;
+  background-color: #d47b00;
 }
 .design {
   width: 80%;
-  background-color: #63be7e;
+  background-color: #d47b00;
 }
 .creativity {
   width: 90%;
-  background-color: #63be7e;
+  background-color: #d47b00;
 }
 
 .portfolio-title {
@@ -215,7 +216,7 @@ main section article a:hover {
 }
 
 article p {
-  background-color: #d1bdab;
+  background-color: #ffffff;
   border-radius: 1rem;
   padding: 1rem;
 }
@@ -229,16 +230,14 @@ article p {
 
 .done {
   background-color: #81be7f;
-  border: 3px solid #6b936a;
 }
 .nodone {
   background-color: rgb(216, 126, 126);
-  border: 3px solid rgb(160, 94, 94);
 }
 
 footer {
   grid-area: footer;
-  background-color: #8fa393;
+  background-color: #dd9133;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -276,8 +275,8 @@ footer ul li a:hover {
   width: 100%;
   background-image: linear-gradient(
       to bottom,
-      rgba(176, 199, 171, 0.5),
-      #788877
+      rgba(221, 145, 51, 0.8),
+      #dd9133
     ),
     url(images/stockimage4.jpg);
   height: 12rem;
@@ -287,13 +286,13 @@ footer ul li a:hover {
 }
 
 a.button {
-  background-color: #8ba977;
+  background-color: #dd9133;
   box-shadow: 1px 0px 29px -3px rgba(0,0,0,0.32);
     -webkit-box-shadow: 1px 0px 29px -3px rgba(0,0,0,0.32);
     -moz-box-shadow: 1px 0px 29px -3px rgba(0,0,0,0.32);
-  color: #583e31;
+  color: #000000;
   font-family: "Quicksand", sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
   text-decoration: none;
   padding: 15px 42px;
@@ -320,7 +319,7 @@ a.button:active {
   transform: translate(-50%, -50%);
   font-family: "Overpass", sans-serif;
   color: black;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 #hide-icon {
@@ -477,7 +476,7 @@ a.button:active {
     display: inline-block;
     padding: 1rem;
     font-size: 1.5rem;
-    color: #464e45;
+    color: #000000;
     font-family: "Overpass", sans-serif;
   }
 
