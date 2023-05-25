@@ -322,6 +322,13 @@ a.button:active {
   border-radius: 17px;
 }
 
+.youcircle {
+  background-color: #FF0000;
+  font-size: 30px;
+  padding: 16px 16px;
+  border-radius: 50%;
+}
+
 .gitcircle {
   background-color: #967bb6;
   font-size: 30px;
