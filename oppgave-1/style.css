@@ -79,6 +79,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
   transform: scale(1.2);
+  color: #ffffff;
   transition: all 300ms;
 }
 
@@ -268,10 +269,14 @@ footer ul li a {
   transition: all 300ms;
 }
 
+.active {
+  color: rgb(232, 231, 231);
+}
+
 footer ul li a:hover {
   text-decoration: none;
   font-family: "M PLUS Rounded 1c", sans-serif;
-  color: rgb(156, 152, 152);
+  color: rgb(255, 255, 255);
   transition: all 300ms;
 }
 
@@ -325,8 +330,10 @@ a.button:active {
 .youcircle {
   background-color: #FF0000;
   font-size: 30px;
-  padding: 16px 16px;
+  color: white !important;
+  padding: 15px 16px;
   border-radius: 50%;
+  text-decoration: none;
 }
 
 .gitcircle {
@@ -334,6 +341,7 @@ a.button:active {
   font-size: 30px;
   padding: 15px 18px;
   border-radius: 50%;
+  text-decoration: none;
 }
 
 .oppgaver {
@@ -349,6 +357,16 @@ a.button:active {
 
 .oppgaver:hover {
   background-color: #8fa5cc;
+}
+
+.youcircle:hover {
+  background-color: #de7d7d;
+  color: black !important;
+}
+
+.gitcircle:hover {
+  background-color: #a891c5;
+  color: white;
 }
 
 .banner-title {
